@@ -27,7 +27,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Hi, what would you like to learn about peacebuilding evaluation?',
+        message: 'Hi, what would you like to learn about evaluation education in the United States?',
         type: 'apiMessage',
       },
     ],
@@ -282,7 +282,7 @@ export default function Home() {
                     placeholder={
                       loading
                         ? 'Waiting for response...'
-                        : 'What questions about peacebuilding practice do you have?'
+                        : 'What questions about evaluation education do you have?'
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
